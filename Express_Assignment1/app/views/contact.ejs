@@ -1,18 +1,53 @@
 <%- include ('partials/header.ejs') %>
-<%- include ('partials/main_nav.ejs') %>
-
-    <!--<img src="img/logo.png" alt="logo">-->
-
-<main class="ontainer">
-<div class="jumbotron">
-
-    <h1>Welcome to <%= title %> Page</h1>
-    </div>
-</main>
-
-      <%- include ('partials/bottom_nav.ejs') %>
-      <%- include ('partials/footer.ejs') %>
+    <%- include ('partials/main_nav.ejs') %>
 
 
+        <main class="container">
+            <div class="jumbotron">
+                <!-- <img src="img/contact.png" width="400px"> -->
 
-   
+                <dl>
+                    <dt>Vianne Chen</dt>
+                    <dd></dd>
+                    <dt>Phone</dt>
+                    <dd> 6476800122</dd>
+                    <dt>Email</dt>
+                    <dd>cyy208@hotmail.com</dd>
+                </dl>
+                <p>Message Me:</p>
+                <input type="texarea">
+
+            </div>
+        </main>
+        <style>
+            body {
+                background-color: rgb(245, 220, 220);
+            }
+
+            dl {
+                margin-top: 15px;
+            }
+
+            p {
+                font-weight: 600;
+            }
+
+            input {
+                width: 400px;
+                height: 150px;
+            }
+
+            h1 {
+                margin-left: 380px;
+                margin-top: 15px;
+                color: rgb(163, 106, 149);
+            }
+        </style>
+
+        <!--bottom nav-->
+
+
+
+        <!--script section-->
+        <%- include ('partials/bottom_nav.ejs') %>
+            <%- include ('partials/footer.ejs') %>
